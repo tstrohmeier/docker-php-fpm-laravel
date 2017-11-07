@@ -1,6 +1,6 @@
 FROM php:7.1.11-fpm
 
-MAINTAINER Thomas Strohmeier <docker@thomas-strohmeier.com>
+MAINTAINER Thomas Strohmeier
 
 
 RUN apt-get update && apt-get install -y libmcrypt-dev unzip \
