@@ -3,7 +3,7 @@ FROM php:7.1.11-fpm
 MAINTAINER Thomas Strohmeier
 
 
-RUN apt-get update && apt-get install -y libmcrypt-dev unzip python cron \
+RUN apt-get update && apt-get install -y libmcrypt-dev unzip python cron supervisor \
     mysql-client libmagickwand-dev --no-install-recommends \
     && pecl install imagick \
     && docker-php-ext-enable imagick \
