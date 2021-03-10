@@ -1,4 +1,4 @@
-FROM php:7.2.20-fpm-stretch
+FROM php:7.3.27-fpm-stretch
 
 
 MAINTAINER Thomas Strohmeier
